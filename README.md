@@ -169,7 +169,7 @@ In this case we will obtain all the commands that we send from AI module as a co
 
 IMPORTANT: To connect the Serial USB module to the Raspberry, follow the following diagram.
 
-<img src="" width="800">
+<img src="https://i.ibb.co/WBLScd3/Untitled-Sketch-bb.png" width="800">
 
 ## Laptop Configuration:
 
@@ -187,11 +187,11 @@ IMPORTANT: To connect the Serial USB module to the Raspberry, follow the followi
 
 ## Demo:
 
-In this video we will present the demo of our product and also we will show you the search for the best AI to do it, please enjoy it.
+In this video we will present our EPIC Demo.
 
 Video: Click on the image:
 
-[![SGD](https://media.giphy.com/media/9VeuJ8sII8rYD7XViE/giphy.gif)](https://youtu.be/IpRtHPIniXw)
+[![SGD](https://i.ibb.co/R4JrJg3/Tello-01.png)]()
 
 Sorry github does not allow embed videos.
 
