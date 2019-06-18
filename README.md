@@ -99,6 +99,9 @@ Table of Moves:
 | Down                   | Drone Down                    |
 | Up                     | Drone Up                      |
 
+
+For the model you have to repeat the movements in different sessions (at least 2) and in my case 30 repetitions of the same movements, in order to generate the model you need to record all the sessions first.
+
 In the following video we show a compilation of the movements that were taught to the AI.
 
 Video: Click on the image:
