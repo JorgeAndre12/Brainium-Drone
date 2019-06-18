@@ -78,7 +78,7 @@ For this project, the following connection scheme is considered.
 
 We entered the motion recognition tab and created a new project.
 
-<img src = "https://i.ibb.co/85qRq8S/Capture11.png" width = "1000">
+<img src = "https://i.ibb.co/85qRq8S/Capture11.png" width = "600">
 
 In the project we create in our case we create the movements that we will use to control the drone.
 
