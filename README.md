@@ -20,6 +20,7 @@ The idea is to make a control system for the drone manipulated by gestures made 
 
 * [Introduction](#introduction)
 * [Materials](#materials)
+* [Brainium Config](#brainium-config)
 * [Raspberry Pi Configuration](#raspberry-pi-configuration)
 * [Train](#train)
 * [IFTTT](#ifttt)
@@ -73,6 +74,10 @@ For this project, the following connection scheme is considered.
 
 <img src="https://i.ibb.co/g4SHfpc/Esquema.png" width="1000">
 
+## Brainium Config:
+
+
+
 ## Raspberry Pi Configuration:
 
 If you are noob consider setting up your raspberry with the following tutorial.
@@ -80,13 +85,13 @@ https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up
 
 You need to have the following configuration to be able to perform Serial communication.
 
-<img src="https://i.ibb.co/6gKKmy3/raspberry-pi-configuration.png" width="600">
+<img src="https://i.ibb.co/6gKKmy3/raspberry-pi-configuration.png" width="500">
 
 Once we have the raspberry configured we will have to obtain the credentials for the connectivity with MQTT of Brainium, these credentials will be obtained in the following link.
 
 https://spa.brainium.com/profile
 
-<img src="https://i.ibb.co/2trk9Zb/Capture.png" width="1000">
+<img src="https://i.ibb.co/2trk9Zb/Capture.png" width="00">
 
 Obtain this credentials:
 - External access token
@@ -94,7 +99,7 @@ Obtain this credentials:
 
 Into device tab obtain your device id:
 
-<img src="https://i.ibb.co/TLhjJ3t/device.png" width="500">
+<img src="https://i.ibb.co/NLqMp9G/device.png" width="500">
 
 Put the credentials inside the "RaspCode.py" code.
 
@@ -102,7 +107,7 @@ Put the credentials inside the "RaspCode.py" code.
     user_id = 'YOURUSERID'  # copy and paste here your user id
     device_id = 'YOURDEVICEID'  # copy and paste here your device id
     
-En este caso obtendremos todos los comandos que mandemos desde el modulo de AI directo como comando a la raspberry, ademas este comando se mandara por comunicacion serial a nuestro codigo en la laptop "TelloSerial.py".
+In this case we will obtain all the commands that we send from AI module as a command to the raspberry, in addition this command will be sent by serial communication to our code in the laptop "TelloSerial.py".
 
 ## Train:
 
