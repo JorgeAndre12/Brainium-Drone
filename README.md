@@ -167,83 +167,17 @@ Put the credentials inside the "RaspCode.py" code.
     
 In this case we will obtain all the commands that we send from AI module as a command to the raspberry, in addition this command will be sent by serial communication to our code in the laptop "TelloSerial.py".
 
-## Train:
+## Laptop Configuration:
 
-  - We created a new workspace.
-  
-<img src="https://i.ibb.co/9rGSVnX/WS1.png" width="1000">
+- Install Python Anaconda and Install the following libraries. (https://www.anaconda.com/distribution/)
+    * Paho-Mqtt. (https://pypi.org/project/paho-mqtt/)
+    * TelloPy. (https://pypi.org/project/tellopy/) 
+    
+- Connect to the Tello Drone WiFi network.
 
-  - We give the project a name.
-  
-  <img src="https://i.ibb.co/cCvszMs/WS2.png" width="1000">
-
-  - We select the device that will obtain the patterns of the machine.
-  
-  <img src="https://i.ibb.co/nfK3wCQ/WS3.png" width="1000">
-
-  - In our case we connect the machine to our bridge simulator, as you can see in the following video to detect oscilation patterns.
-
-[![SGD](https://img.interempresas.net/fotos/1843350.jpeg)](https://youtu.be/cFr_DeH4-iQ)
-
-Sorry github does not allow embed videos.
-
-- Once we have a large sample of patterns, we rename the patterns that are relevant to our model and we create the model.
-
-<img src="https://i.ibb.co/qr4hqsf/Capture11.png" width="1000">
-
-The patterns we recorded were the following, the most important for us and our notification that predictive maintenance is required is Max Vibration S:
-
-- S1: Static State.
-- Med Vibration S.
-- S2: Static State.
-- Max Vibration S.
-- S3: Static State.
-
-- Once the model is created, we go to the projects tab and create a new one.
-
-<img src="https://i.ibb.co/Wyz3VrH/tab.png" width="1000">
-
-- We assign to our project the BBBM device.
-
-<img src="https://i.ibb.co/1Xb4kCB/bbbbbbbm.png" width="1000">
-
-# IFTTT:
-
-- First we need to create an account in IFTTT, fortunately Brainium has an integration with this platform for integration of services.
-
-<img src="https://i.ibb.co/Bf9cYLg/Capture1.png" width="1000">
-
-- We search for "Brainium" in the search bar.
-
-<img src="https://i.ibb.co/tDLgCLW/Capture2.png" width="1000">
-
-- We enter any of the applets and press on the author Brainium.
-
-<img src="https://i.ibb.co/KbR8SJ8/Capture3.png" width="1000">
-
-- We select "Connect" to make the connection with the Brainium platform.
-
-<img src="https://i.ibb.co/SxMmKXB/Capture45.png" width="1000">
-
-- We put our credentials to connect.
-
-<img src = "https://i.ibb.co/LJ5R4MH/Capture55.png" width = "1000">
-
-- We allow the access.
-
-<img src = "https://i.ibb.co/6rg7qqx/Capture56.png" width = "1000">
-
-- We selected the Applet "Get all Brainium alerts on your device".
-
-<img src = "https://i.ibb.co/y42CbmL/Capture57.png" width = "1000">
-
-- Turn ON and thats all!
-
-<img src = "https://i.ibb.co/sJ23cFV/Capture58.png" width = "1000">
-
-- To finish this, we need to install the IFTTT app on your device.
-
-https://play.google.com/store/apps/details?id=com.ifttt.ifttt&hl=es_MX
+<img src="https://i.ibb.co/ZzbxQZC/Capturewifi.png" width="800">
+        
+- Connect the USBSerial, download and run the code "TelloSerial.py"
 
 ## Demo:
 
