@@ -76,11 +76,11 @@ For this project, the following connection scheme is considered.
 
 ## Brainium Config:
 
-Entramos a la pestaña de motion recognition y creamos un proyecto nuevo.
+We entered the motion recognition tab and created a new project.
 
-<img src="https://i.ibb.co/85qRq8S/Capture11.png" width="1000">
+<img src = "https://i.ibb.co/85qRq8S/Capture11.png" width = "1000">
 
-En el proyecto creamos en nuestro caso creamos los movimientos que usaremos para controlar el dron.
+In the project we create in our case we create the movements that we will use to control the drone.
 
 <img src="https://i.ibb.co/mc91Hyg/Capture1.png" width="1000">
 
@@ -97,6 +97,31 @@ En el proyecto creamos en nuestro caso creamos los movimientos que usaremos para
 | Down                   | Drone Down                    |
 | Up                     | Drone Up                      |
 
+In the following video we show a compilation of the movements that were taught to the AI.
+
+Video: Click on the image:
+
+[![SGD](https://media.giphy.com/media/9VeuJ8sII8rYD7XViE/giphy.gif)](https://youtu.be/IpRtHPIniXw)
+
+Sorry github does not allow embed videos.
+
+To configure the communication by MQTT from Brainium, we must create a widget that allows to send the last registered pattern.
+
+- We created a new widget.
+
+<img src = "https://i.ibb.co/WP9pwFR/Capture20.png" width = "500">
+
+- We configure as shown in the image.
+
+<img src = "https://i.ibb.co/1L9Lbjq/Capture21.png" width = "500">
+
+- We select the device that will record the data.
+
+<img src = "https://i.ibb.co/DK9scnh/Capture22.png" width = "500">
+
+- In the widget we can see the last recorded movement, this information will be sent by MQTT in the form of JSON, the code for the raspberry is already configured to filter only the registered patterns.
+
+<img src = "https://i.ibb.co/yhp4Php/Capture23.png" width = "500">
 
 ## Raspberry Pi Configuration:
 
@@ -111,7 +136,7 @@ Once we have the raspberry configured we will have to obtain the credentials for
 
 https://spa.brainium.com/profile
 
-<img src="https://i.ibb.co/2trk9Zb/Capture.png" width="00">
+<img src="https://i.ibb.co/2trk9Zb/Capture.png" width="500">
 
 Obtain this credentials:
 - External access token
