@@ -82,7 +82,9 @@ We entered the motion recognition tab and created a new project.
 
 In the project we create in our case we create the movements that we will use to control the drone.
 
-<img src="https://i.ibb.co/mc91Hyg/Capture1.png" width="1000">
+<img src="https://i.ibb.co/mc91Hyg/Capture1.png" width="600">
+
+Table of Moves:
 
 | Moves                  | Dron Action                   | 
 |------------------------|-------------------------------|
