@@ -165,7 +165,11 @@ Put the credentials inside the "RaspCode.py" code.
     user_id = 'YOURUSERID'  # copy and paste here your user id
     device_id = 'YOURDEVICEID'  # copy and paste here your device id
     
-In this case we will obtain all the commands that we send from AI module as a command to the raspberry, in addition this command will be sent by serial communication to our code in the laptop "TelloSerial.py".
+In this case we will obtain all the commands that we send from AI module as a command to the raspberry.
+
+IMPORTANT: To connect the Serial USB module to the Raspberry, follow the following diagram.
+
+
 
 ## Laptop Configuration:
 
