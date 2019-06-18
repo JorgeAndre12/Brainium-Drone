@@ -76,6 +76,26 @@ For this project, the following connection scheme is considered.
 
 ## Brainium Config:
 
+Entramos a la pestaña de motion recognition y creamos un proyecto nuevo.
+
+<img src="https://i.ibb.co/85qRq8S/Capture11.png" width="1000">
+
+En el proyecto creamos en nuestro caso creamos los movimientos que usaremos para controlar el dron.
+
+<img src="https://i.ibb.co/mc91Hyg/Capture1.png" width="1000">
+
+| Moves                  | Dron Action                   | 
+|------------------------|-------------------------------|
+| Back                   | Drone Backward                |
+| Forw                   | Drone Forward                 |
+| Land                   | Dron Landing                  |
+| Take                   | Drone Takeoff                 |
+| R                      | Drone Right Move              |
+| L                      | Drone Left Move               |
+| Circle L               | Drone Counter Clockwise       |
+| Circle R               | Drone Clockwise               |
+| Down                   | Drone Down                    |
+| Up                     | Drone Up                      |
 
 
 ## Raspberry Pi Configuration:
@@ -97,9 +117,13 @@ Obtain this credentials:
 - External access token
 - User ID
 
-Into device tab obtain your device id:
+Into device tab obtain your device id: (If you have not renamed your module instead of "Dedsec" you will see the device ID)
 
-<img src="https://i.ibb.co/NLqMp9G/device.png" width="500">
+<img src = "https://i.ibb.co/NLqMp9G/device.png" width = "500">
+
+If you already renamed it and did not point the Device Id, you can find it by pressing the "+" button and you will see it below the name.
+
+<img src="https://i.ibb.co/ZLQrQFX/deviceID.png" width="500">
 
 Put the credentials inside the "RaspCode.py" code.
 
