@@ -169,7 +169,7 @@ In this case we will obtain all the commands that we send from AI module as a co
 
 IMPORTANT: To connect the Serial USB module to the Raspberry, follow the following diagram.
 
-
+<img src="" width="800">
 
 ## Laptop Configuration:
 
@@ -182,6 +182,8 @@ IMPORTANT: To connect the Serial USB module to the Raspberry, follow the followi
 <img src="https://i.ibb.co/ZzbxQZC/Capturewifi.png" width="800">
         
 - Connect the USBSerial, download and run the code "TelloSerial.py"
+
+<img src="https://i.ibb.co/mHsGSMw/Captures.png" width="800">
 
 ## Demo:
 
