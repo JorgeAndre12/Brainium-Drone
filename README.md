@@ -80,7 +80,7 @@ https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up
 
 You need to have the following configuration to be able to perform Serial communication.
 
-<img src="https://i.ibb.co/6gKKmy3/raspberry-pi-configuration.png" width="1000">
+<img src="https://i.ibb.co/6gKKmy3/raspberry-pi-configuration.png" width="600">
 
 Once we have the raspberry configured we will have to obtain the credentials for the connectivity with MQTT of Brainium, these credentials will be obtained in the following link.
 
