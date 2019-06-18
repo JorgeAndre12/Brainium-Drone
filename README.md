@@ -102,6 +102,10 @@ Table of Moves:
 
 For the model you have to repeat the movements in different sessions (at least 2) and in my case 30 repetitions of the same movements, in order to generate the model you need to record all the sessions first.
 
+En el caso de el modelo, revisa la tabla para observar que movimiento necesita de mas repeticiones para que pueda ser reconocido con mayor facilidad.
+
+<img src = "https://i.ibb.co/BjYsbf0/table.png" width = "1000">
+
 In the following video we show a compilation of the movements that were taught to the AI.
 
 Video: Click on the image:
