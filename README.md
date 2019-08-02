@@ -191,7 +191,7 @@ In this video we will present our EPIC Demo.
 
 Video: Click on the image:
 
-[![SGD](https://i.ibb.co/R4JrJg3/Tello-01.png)]()
+[![SGD](https://i.ibb.co/R4JrJg3/Tello-01.png)](https://youtu.be/EHX-HHqmi_M)
 
 Sorry github does not allow embed videos.
 
