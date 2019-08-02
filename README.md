@@ -110,7 +110,7 @@ In the following video we show a compilation of the movements that were taught t
 
 Video: Click on the image:
 
-[![SGD](https://cdn1.itpro.co.uk/sites/itpro/files/styles/article_main_wide_image/public/2018/02/shutterstock_561931702.jpg?itok=LXPgi7DO)]()
+[![SGD](https://cdn1.itpro.co.uk/sites/itpro/files/styles/article_main_wide_image/public/2018/02/shutterstock_561931702.jpg?itok=LXPgi7DO)](https://youtu.be/fSfz2uafEOU)
 
 Sorry github does not allow embed videos.
 
