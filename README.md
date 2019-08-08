@@ -22,11 +22,8 @@ The idea is to make a control system for the drone manipulated by gestures made 
 * [Materials](#materials)
 * [Brainium Config](#brainium-config)
 * [Raspberry Pi Configuration](#raspberry-pi-configuration)
-* [Train](#train)
-* [IFTTT](#ifttt)
+* [Laptop Configuration](#laptop-configuration)
 * [Demo](#demo)
-* [Comments](#comments)
-* [References](#references)
 
 ## Introduction:
 
