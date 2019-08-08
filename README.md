@@ -56,6 +56,7 @@ List the hardware and software you will use to build this.
 
 Hardware: 
 - SmartEdge Agile.
+- DJI Tello Drone.
 - RaspberryPi 3.
 - Serial Module CH340.
 - Laptop or Desktop PC (or another RaspberryPy 3). 
